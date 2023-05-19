@@ -5,7 +5,6 @@ client/node_modules
 client/build
 /static/logs
 /static/storage
-/database
 /documentation
 
 # Logs
