@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@common/*": ["src/common/*"],
+      "@constants": ["src/common/constants"],
+      "@decorators": ["src/common/decorators"],
+      "@enums": ["src/common/enums"],
+      "@exceptions": ["src/common/exceptions"],
+      "@filters": ["src/common/filters"],
+      "@guards": ["src/common/guards"],
+      "@helpers": ["src/common/helpers"],
+      "@interceptors": ["src/common/interceptors"],
+      "@interfaces": ["src/common/interfaces"],
+      "@middlewares": ["src/common/middlewares"],
+      "@pipes": ["src/common/pipes"],
+      "@subscribers": ["src/common/subscribers"],
+      "@tools": ["src/common/tools"],
+      "@config/*": ["src/config/*"],
+      "@core": ["src/core"],
+      "@dto/*": ["src/models/dto/*"],
+      "@entities/*": ["src/models/entities/*"],
+      "@modules/*": ["src/modules/*"],
+      "@tasks/*": ["src/tasks/*"]
+    }
+  }
+}
